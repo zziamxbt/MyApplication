@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     List<MyData> mlist=new ArrayList<>();
     ListView mListView;
     MyAdapter mAdapter;
+    //jjjjj
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        //lllll
         MyData d1 = new MyData("欢欢",0);
         MyData d2 = new MyData("干啥",1);
         MyData d3 = new MyData("上课不好好听课",1);
